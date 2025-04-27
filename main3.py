@@ -8,7 +8,7 @@ import streamlit as st
 import time
 
 # Configure GenAI
-genai.configure(api_key="AIzaSyDIp49ILmMKMYBET-Iv_sntptDIp_VTEEk")
+genai.configure(api_key="Your_API_Key_here")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Page Configuration
