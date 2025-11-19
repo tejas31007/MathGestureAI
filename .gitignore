@@ -1,0 +1,13 @@
+# Ignore Frontend dependencies (The heavy stuff)
+node_modules/
+frontend/node_modules/
+.env
+
+# Ignore Backend dependencies & compiled files
+venv/
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
